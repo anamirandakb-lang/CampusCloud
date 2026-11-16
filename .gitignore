@@ -1,2 +1,20 @@
-.env 
-* .log
+# Variables de entorno
+.env
+**/.env
+.env.*
+**/.env.*
+!.env.example
+!**/.env.example
+
+# Registros y temporales
+*.log
+*.tmp
+
+# Datos de volumenes y empaquetados
+**/data/
+*.zip
+*.tar
+
+# Dependencias y pruebas
+node_modules/
+coverage/
